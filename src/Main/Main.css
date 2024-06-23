@@ -1,0 +1,44 @@
+.mian {
+    position: relative;
+    top: -16px;
+    width: 100vw;
+    & ul {
+        width: 100%;
+        & li {
+            position: relative;
+            left: -1.7%;
+            list-style: none;
+            float: left;
+            padding-left: 2%;
+            transition-duration: 500ms;
+            &:hover {
+                filter: brightness(90%)
+            }
+            & div {
+                width: 110%;
+                background-color: rgba(128, 128, 128, 0.247);
+                & img {
+                    position: relative;
+                    top: 10px;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 225px;
+                    height: 225px;
+                }
+                & h3 {
+                    margin-top: 5%;
+                    margin-left: 5%;
+                }
+                & p {
+                    position: relative;
+                    top: -10px;
+                    width: 90%;
+                    margin-left: 5%;
+                    margin-top: -5%;
+                    font-size: 90%;
+                }
+            }
+        }
+    }
+}
